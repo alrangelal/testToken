@@ -6,8 +6,12 @@ contract DappToken {
 	//Define supply
 	//Read supply
 	uint256 public totalSupply;
-
-	constructor() public{
-		totalSupply=1000000;
+	mapping(address => uint256) public balanceOf;
+	address public owner=msg.sender;
+ 
+	constructor(uint256 _initialSupply) public{ 
+		balanceOf[owner] = _initialSupply; //mapping
+		totalSupply = _initialSupply;
+		//allocate initial supply
 	}
 }

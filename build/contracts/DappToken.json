@@ -23,15 +23,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/range/documents/Token/token_sale/contracts/DappToken.sol\":\"DappToken\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/range/documents/Token/token_sale/contracts/DappToken.sol\":{\"keccak256\":\"0x67ed1bdf606fb91fe21a1666158e1fa7249d026fa34ebb38cd96ed137d07e0ce\",\"urls\":[\"bzz-raw://f4578f52beb397c83b4daa841ad9df395b59062ab7ed9bf138d90011cc313aa4\",\"dweb:/ipfs/QmToJVswCi5RjsW1Zh8gh4ihu6rxyENQCvZ5rqQpZtt6Jq\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50620f42406000819055506084806100286000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806318160ddd14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a723158201786f67b23a1ba7000089fd86ee2d4be68b0cf5b15d54f60f7295d6ce8ae1c5264736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806318160ddd14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a723158201786f67b23a1ba7000089fd86ee2d4be68b0cf5b15d54f60f7295d6ce8ae1c5264736f6c63430005100032",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/users/range/Documents/token/testToken/contracts/DappToken.sol\":\"DappToken\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/users/range/Documents/token/testToken/contracts/DappToken.sol\":{\"keccak256\":\"0x67ed1bdf606fb91fe21a1666158e1fa7249d026fa34ebb38cd96ed137d07e0ce\",\"urls\":[\"bzz-raw://f4578f52beb397c83b4daa841ad9df395b59062ab7ed9bf138d90011cc313aa4\",\"dweb:/ipfs/QmToJVswCi5RjsW1Zh8gh4ihu6rxyENQCvZ5rqQpZtt6Jq\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50620f42406000819055506084806100286000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806318160ddd14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820ac758ddfa3c5a44c5ac77fa83b39abd669d0fa38371997bc1f40412143e6318e64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806318160ddd14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820ac758ddfa3c5a44c5ac77fa83b39abd669d0fa38371997bc1f40412143e6318e64736f6c63430005100032",
   "sourceMap": "36:217:0:-;;;201:49;8:9:-1;5:2;;;30:1;27;20:12;5:2;201:49:0;238:7;226:11;:19;;;;36:217;;;;;;",
   "deployedSourceMap": "36:217:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:217:0;;;;;;;;;;;;;;;;;;;169:26;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::o",
   "source": "pragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract DappToken {\r\n\t//test contract\r\n\t//Constructor - runs everytime the contract is executed\r\n\t//Define supply\r\n\t//Read supply\r\n\tuint256 public totalSupply;\r\n\r\n\tconstructor() public{\r\n\t\ttotalSupply=1000000;\r\n\t}\r\n}",
-  "sourcePath": "C:/Users/range/documents/Token/token_sale/contracts/DappToken.sol",
+  "sourcePath": "C:/users/range/Documents/token/testToken/contracts/DappToken.sol",
   "ast": {
-    "absolutePath": "/C/Users/range/documents/Token/token_sale/contracts/DappToken.sol",
+    "absolutePath": "/C/users/range/Documents/token/testToken/contracts/DappToken.sol",
     "exportedSymbols": {
       "DappToken": [
         12
@@ -186,7 +186,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/C/Users/range/documents/Token/token_sale/contracts/DappToken.sol",
+      "absolutePath": "/C/users/range/Documents/token/testToken/contracts/DappToken.sol",
       "exportedSymbols": {
         "DappToken": [
           12
@@ -376,12 +376,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x0d88E60F05020750Bd4aDC1374297F9339D34a96",
-      "transactionHash": "0x28a51874b17c50d327b24e191fe8e2305fd0a338e75ece09e76381f44ebb65b2"
+      "address": "0x750aeaF0B8487c950a88A270E7Bd1054eb8d6321",
+      "transactionHash": "0x86960a9bb020944b42721702952d43ab0f2673ae085f21b1cbffd5f8e9207613"
     }
   },
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-05-24T13:47:26.180Z",
+  "updatedAt": "2021-05-24T15:47:38.016Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
